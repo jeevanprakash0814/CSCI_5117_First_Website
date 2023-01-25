@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Github Pages Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Bruno Fan Club</title>
 </head>
 <body>
     <h1>
-        Author: Jeevan Prakash
+        Bruno
     </h1>
+    <img class="center" src="Bruno.jpeg">
+    <p>
+        His name is Bruno. He is a medium-sized chocolate labradoodle.<br><br>
+    </p>
+    <form>
+        <label for="name">Join the Bruno Fan Club by entering your name below!</label>
+        <input type="text" id="name" name="name-info"><br>
+    </form>
+    <div class="button-container">
+        <button type="button" onclick="addName()">Submit</button>
+    </div>
+    <p id="name-list"></p>
 </body>
 </html>
